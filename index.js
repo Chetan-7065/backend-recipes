@@ -11,7 +11,7 @@ const corsOptions = {
   optionSuccessStatus: 200,
 };
 
-app.get("/", (res, req) => {
+app.get("/", (req, res) => {
   res.send("Hello, express server")
 })
 
